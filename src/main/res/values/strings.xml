@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Instagram OAuth2</string>
+    <string name="title_activity_login">Sign in to Instagram</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instagram_auth_url" translatable="false">https://api.instagram.com/oauth/authorize/</string>
+    <!-- The account type, as reported to the android account management system -->
+    <string name="instagram_account_type"  translatable="false">org.houseboat.instagramoauth2</string>
+
+    <!-- The scope of priviledges you want to use on the users behalf with the Instagram-API -->
+    <string name="instagram_auth_scope" translatable="false">basic</string>
+
+    <!-- You must obtain these values from Instagram, by signing up,
+    creating a new client and agrreeing to Instagrams Terms & Conditions
+    see: https://www.instagram.com/developer/clients/register/ -->
+    <string name="instagram_client_id"     translatable="false">[INSERT YOUR CLIENT ID HERE]</string>
+    <string name="instagram_client_secret" translatable="false">[INSERT YOUR CLIENT SECRET HERE]</string>
+
+    <!-- These values must match your clients configuration you set up on Instagram -->
+    <string name="instagram_website_url"   translatable="false">[INSERT YOUR WEBSITE URL HERE]</string>
+    <string name="instagram_redirect_uri"  translatable="false">app://instagram/authresult</string>
+    <string name="instagram_support_email" translatable="false">[INSERT YOUR MAIL HERE]</string>
+</resources>
